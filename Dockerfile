@@ -7,4 +7,4 @@ RUN apt update -y && apt install awscli -y
 
 RUN apt-get update && pip install -r requirements.txt
 
-CMD [ "pythons", "app.py" ]
+CMD [ "python3", "app.py" ]
